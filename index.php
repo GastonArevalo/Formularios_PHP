@@ -18,6 +18,46 @@
        <label for="apellido">Apellido:</label>
        <p><input type="text" name="apellido" disabled="disabled"></p> <br>
 
+       <label for="sexo">Sexo:</label>
+       <p>
+       Hombre: <input type="checkbox" name="sexo" value="Hombre">
+       Mujer:  <input type="checkbox" name="sexo" value="Mujer" checked="cheked">
+       </p> <br>
+
+       <label for="color">Color:</label>
+       <p><input type="color" name="color" ></p> <br>
+       
+       <label for="boton"> Boton </label>
+       <p><input type="button" name="boton" value="Presiona"></p> <br>
+       
+       <label for="fecha">Fecha:</label>
+       <p><input type="date" name="fecha" ></p> <br>
+       
+       <label for="correo">Correo:</label>
+       <p><input type="email" name="correo" ></p> <br>
+        
+       <label for="archivo">Archivo:</label>
+       <p><input type="file" name="archivo" multiple="multiple" ></p> <br>
+       
+       <label for="numero">Numero:</label>
+       <p><input type="number" name="numero" ></p> <br>
+
+       <label for="pass">Contraseña:</label>
+       <p><input type="password" name="pass" ></p> <br>
+
+       <label for="radio">Continente:</label>
+       <p>
+            Sudamerica: <input type="radio" name="continente" value="America del sur" >
+            Europa: <input type="radio" name="continente" value="Europa" >
+            Asia: <input type="radio" name="continente" value="Asia" >
+       </p> <br>
+
+       <label for="url">Pagina Web:</label>
+       <p><input type="url" name="url" ></p> <br>
+
+       <label for="pass">Contraseña:</label>
+       <p><input type="password" name="pass" ></p> <br>
+
        <input type="submit" value="enviar">
     </form>
 </body>
