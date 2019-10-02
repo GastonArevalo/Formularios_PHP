@@ -58,7 +58,19 @@
        <label for="pass">Contraseña:</label>
        <p><input type="password" name="pass" ></p> <br>
 
-       <input type="submit" value="enviar">
+       <textarea name="" id="" cols="30" rows="10">Area</textarea> <br>
+
+        Peliculas:
+        <select name="peliculas" id="">
+            <option value="spiderman">Spiderman</option>
+            <option value="batman">batman</option>
+            <option value="ironman">ironman</option>
+            <option value="hulk">Hulk</option>
+        </select>
+
+     <br>  <input type="submit" value="enviar">
+
+       
     </form>
 </body>
 </html>
