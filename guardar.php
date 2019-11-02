@@ -1,13 +1,7 @@
-<?php
+<?
 
-$HOLA = 5;
-echo $HOLA;
+if(isset($_GET['primero']) && isset($_GET['segundo'])){
 
-/*echo $_GET['titulo'];
-echo $_GET['descrip'];
-
-if(isset($_GET['titulo']) $$ isset($_GET['descrip'])){
-
-    echo $_GET['titulo'];
-    echo $_GET['descrip'];
-}*/
+    echo $_GET['primero'];
+    echo $_GET['segundo'];
+}
