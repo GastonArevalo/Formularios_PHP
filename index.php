@@ -10,13 +10,13 @@
 </head>
 <body>
     <h1>Formulario</h1>
-    <form action="" method="POST" enctype="multipart/from-data">
+    <form action="guardar.php" method="POST" enctype="multipart/from-data">
 
        <label for="nombre">Nombre:</label>
        <p><input type="text" name="nombre" autofocus="autofocus" maxlength="10" minlength="4" pattern="[A-Z;a-z]+" required="required"></p> <br>
 
        <label for="apellido">Apellido:</label>
-       <p><input type="text" name="apellido" disabled="disabled"></p> <br>
+       <p><input type="text" name="apellido" ></p> <br>
 
        <label for="sexo">Sexo:</label>
        <p>

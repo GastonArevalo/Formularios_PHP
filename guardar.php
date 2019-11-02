@@ -1,7 +1,8 @@
-<?
+<?php
 
-if(isset($_GET['primero']) && isset($_GET['segundo'])){
+if(isset($_POST['nombre']) && isset($_POST['apellido'])){
 
-    echo $_GET['primero'];
-    echo $_GET['segundo'];
+    echo $_POST['nombre'];
+    echo "<br>";
+    echo $_POST['apellido'];
 }
